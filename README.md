@@ -36,15 +36,15 @@ $ deactivate
 ```
 Datasense@CRAS/ │
               ├── train/ │
-              │   ├── images/ # Training images │
-              │   └── labels/ # Corresponding training labels │
+              │   ├── images/ 
+              │   └── labels/ 
               ├── valid/ │
-              │   ├── images/ # Validation images │
-              │   └── labels/ # Corresponding validation labels │
+              │   ├── images/ 
+              │   └── labels/ 
               ├── test/ │
-              │   ├── images/ # Test images │
-              │   └── labels/ # Corresponding test labels │
-              └── data.yaml # Dataset configuration file with class definitions
+              │   ├── images/ 
+              │   └── labels/ 
+              └── data.yaml 
 ```
 ### 3.1 Dataset used in this research
 * Original dataset: [Datasense@CRAS](https://rdm.inesctec.pt/lv/dataset/nis-2022-001).
