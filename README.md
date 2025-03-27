@@ -47,9 +47,9 @@ Datasense@CRAS/ │
               └── data.yaml # Dataset configuration file with class definitions
 ```
 ### 3.1 Dataset used in this research
-* Original dataset, [Datasense@CRAS](https://rdm.inesctec.pt/lv/dataset/nis-2022-001).
-* Original dataset, [SeaDroneSee v2](https://cloud.cs.uni-tuebingen.de/index.php/s/ZZxX65FGnQ8zjBP?path=/Compressed%20Version).
-* Our dataset as a contribution, [USVDDModel](https://universe.roboflow.com/modelboat/boat-detection-oelpk).
+* Original dataset: [Datasense@CRAS](https://rdm.inesctec.pt/lv/dataset/nis-2022-001).
+* Original dataset: [SeaDroneSee v2](https://cloud.cs.uni-tuebingen.de/index.php/s/ZZxX65FGnQ8zjBP?path=/Compressed%20Version).
+* Our dataset as a contribution: [USVDDModel](https://universe.roboflow.com/modelboat/boat-detection-oelpk).
 
 ## 4. Train Yolov8 object detection on a custom dataset
 To run or launch the training you will need:
@@ -77,10 +77,10 @@ $ yolo detect train data=/path/data.yaml model=yolov8n.pt epochs=150 imgsz=640 b
 ## 6. Running inference on Jetson Orin + ZED 2 camera
 
 ### 6.1 Intall dependencies
-- \>= JetPack SDK
-- \> ZED SDK
-- \> Ultralytics
-- \>= CUDA
+* JetPack SDK
+* ZED SDK
+* Ultralytics
+* CUDA
 
 ### 6.2 Run inference
 To run inferences with our model and video captured with the ZED camera, we used the example available in the Stereolabs repository: https://github.com/stereolabs/zed-sdk/blob/master/object%20detection/custom%20detector/python/pytorch_yolov8/detector.py
@@ -88,6 +88,9 @@ To run inferences with our model and video captured with the ZED camera, we used
 In addition, the inference video is available in the `Postprocessing-CameraStereo/` folder, in which we have used the [medium model](https://gitlab.com/Ljmn30/tfm/-/raw/main/Datasense@CRAS/Train/weights/best.pt?ref_type=heads) of the Datasense@CRAS dataset for object detection.
 
 ## 7. Publications
+
+Title: YOLO-Based Power-Efficient Object Detection on Edge Devices for USVs  
+Journal: Journal of Real-Time Image Processing  
 Submitted
 
 ## 8. Acknowledgements
