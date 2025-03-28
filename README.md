@@ -83,15 +83,15 @@ $ yolo detect train data=/path/data.yaml model=yolov8n.pt epochs=150 imgsz=640 b
 * CUDA
 
 ### 6.2 Run inference
-To run inferences with our model and video captured with the ZED camera, we used the example available in the Stereolabs repository: https://github.com/stereolabs/zed-sdk/blob/master/object%20detection/custom%20detector/python/pytorch_yolov8/detector.py
+To run inferences with our model and the videos captured with the ZED camera, our inference code is based on the Python script [`detector.py`](https://github.com/stereolabs/zed-sdk/blob/master/object%20detection/custom%20detector/python/pytorch_yolov8/detector.py) provided by Stereolabs. Alternatively, we have also developed a [C++ version based on equivalent](https://github.com/stereolabs/zed-sdk/tree/master/object%20detection/custom%20detector/cpp/tensorrt_yolov5-v6-v8_onnx) with similar performance rates.
 
-In addition, the inference video is available in the `Postprocessing-CameraStereo/` folder, in which we have used the [medium model](https://gitlab.com/Ljmn30/tfm/-/raw/main/Datasense@CRAS/Train/weights/best.pt?ref_type=heads) of the Datasense@CRAS dataset for object detection.
+
+In addition, the testing have been performed with some videos available in the folder `Videos/` folder, in which we have used the [medium, small and nano model](https://gitlab.com/Ljmn30/tfm/-/raw/main/Datasense@CRAS/Train/weights/best.pt?ref_type=heads) of both Datasense@CRAS and USVDD dataset for object detection. The results are available in the folder `Videos/ObjectDetection/`.
 
 ## 7. Publications
 
-Title: YOLO-Based Power-Efficient Object Detection on Edge Devices for USVs  
-Journal: Journal of Real-Time Image Processing  
-Submitted
+Title: "YOLO-Based Power-Efficient Object Detection on Edge Devices for USVs"
+Journal: Journal of Real-Time Image Processing (Submitted)
 
 ## 8. Acknowledgements
 This paper has been partially funded by the EU (FEDER), the Spanish MINECO under grants PID2021-126576NB-I00 and TED2021-130123B-I00 funded by MCIN/AEI/10.13039/501100011033 and by European Union "ERDF A way of making Europe" and the NextGenerationEU/PRT. J.L.M. thanks the National Secretariat of Science, Technology and Innovation (SENACYT) of Panama for financial support during the completion of his PhD.
