@@ -49,7 +49,7 @@ Datasense@CRAS/ │
 ### 3.1 Dataset used in this research
 * Original dataset: [Datasense@CRAS](https://rdm.inesctec.pt/lv/dataset/nis-2022-001).
 * Original dataset: [SeaDroneSee v2](https://cloud.cs.uni-tuebingen.de/index.php/s/ZZxX65FGnQ8zjBP?path=/Compressed%20Version).
-* Our dataset as a contribution: [USVDDModel](https://universe.roboflow.com/modelboat/boat-detection-oelpk).
+* Our dataset as a contribution: [USVDD](https://universe.roboflow.com/modelboat/boat-detection-oelpk).
 
 ## 4. Train Yolov8 object detection on a custom dataset
 To run or launch the training you will need:
