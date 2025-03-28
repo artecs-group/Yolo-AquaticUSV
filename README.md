@@ -69,7 +69,7 @@ $ yolo detect train data=/path/data.yaml model=yolov8n.pt epochs=150 imgsz=640 b
    [small model](https://gitlab.com/Ljmn30/tfm/-/raw/main/SeaDronesSee/Train2/weights/best.pt?ref_type=heads).   
    [medium model](https://gitlab.com/Ljmn30/tfm/-/raw/main/SeaDronesSee/Train3/weights/best.pt?ref_type=heads).   
    
-* USVDDModel  
+* USVDD  
    [nano model](https://gitlab.com/Ljmn30/tfm/-/raw/main/USVDDMODEL/Train/weights/best.pt?ref_type=heads).    
    [small model](https://gitlab.com/Ljmn30/tfm/-/raw/main/USVDDMODEL/Train2/weights/best.pt?ref_type=heads).   
    [medium model](https://gitlab.com/Ljmn30/tfm/-/raw/main/USVDDMODEL/Train3/weights/best.pt?ref_type=heads). 
