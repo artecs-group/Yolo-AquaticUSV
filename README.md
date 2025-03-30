@@ -36,14 +36,30 @@ $ deactivate
 ```
 Datasense@CRAS/ │
               ├── train/ │
-              │   ├── images/ 
-              │   └── labels/ 
+              │   ├── images/
+              │   ├── image1.jpg
+              │   ├── image2.jpg
+              │   ├── .... (other image files)  
+              │   └── labels/
+              │   ├── label1.txt
+              │   ├── label2.txt
+              │   ├── .... (other label files)     
               ├── valid/ │
-              │   ├── images/ 
-              │   └── labels/ 
+              │   ├── image1.jpg
+              │   ├── image2.jpg
+              │   ├── .... (other image files)
+              │   └── labels/
+              │   ├── label1.txt
+              │   ├── label2.txt
+              │   ├── .... (other label files) 
               ├── test/ │
-              │   ├── images/ 
-              │   └── labels/ 
+              │   ├── image1.jpg
+              │   ├── image2.jpg
+              │   ├── .... (other image files)
+              │   └── labels/
+              │   ├── label1.txt
+              │   ├── label2.txt
+              │   ├── .... (other label files) 
               └── data.yaml 
 ```
 ### 3.1 Dataset used in this research
