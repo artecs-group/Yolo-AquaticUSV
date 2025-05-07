@@ -107,7 +107,8 @@ In addition, the testing have been performed with some videos available in the f
 ## 7. Publications
 
 Title: "YOLO-Based Power-Efficient Object Detection on Edge Devices for USVs"
-Journal: Journal of Real-Time Image Processing (Submitted)
+Journal: Journal of Real-Time Image Processing (Published)
+DOI: https://doi.org/10.1007/s11554-025-01682-2
 
 ## 8. Acknowledgements
 This paper has been partially funded by the EU (FEDER), the Spanish MINECO under grants PID2021-126576NB-I00 and TED2021-130123B-I00 funded by MCIN/AEI/10.13039/501100011033 and by European Union "ERDF A way of making Europe" and the NextGenerationEU/PRT. J.L.M. thanks the National Secretariat of Science, Technology and Innovation (SENACYT) of Panama for financial support during the completion of his PhD.
