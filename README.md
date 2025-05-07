@@ -106,8 +106,8 @@ In addition, the testing have been performed with some videos available in the f
 
 ## 7. Publications
 
-Title: "YOLO-Based Power-Efficient Object Detection on Edge Devices for USVs"
-Journal: Journal of Real-Time Image Processing (Published)
+Title: "YOLO-Based Power-Efficient Object Detection on Edge Devices for USVs"  
+Journal: Journal of Real-Time Image Processing (Published)  
 DOI: https://doi.org/10.1007/s11554-025-01682-2
 
 ## 8. Acknowledgements
